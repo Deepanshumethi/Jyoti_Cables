@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow:hidden;
   /* line-height:1.7rem; */
 }
 button , a , li{
@@ -170,7 +171,7 @@ text-transform: uppercase;
 /* //left-imageright-text css */
 .left-text-right-image-main {
   display: grid;
-  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-columns: 2fr 1fr;
   /* grid-auto-rows: 100px; */
   gap: 40px;
   padding: 50px 30px 50px 50px;
