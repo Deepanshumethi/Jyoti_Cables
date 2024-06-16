@@ -16,7 +16,7 @@ function LeftimageRightText() {
          <div className="left-image-right-text-main " id="l-i-r-t-h-p">
             <div className="card-container-left ">
                 <div className="red-card"></div>
-                <img src="./images/About Us Page Image .webp" alt="Spool of Wire" className="left-image" />
+                <img src="./images/About US Page Image .webp" alt="Spool of Wire" className="left-image" />
             </div>
             <div className='left-image-right-text-content'>
                 <h3 className='l-i-r-t-title'>ABOUT US</h3>
