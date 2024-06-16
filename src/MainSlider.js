@@ -75,7 +75,7 @@ const sliderData = [
         subheading: "Your Trusted partner Since 1980 at your home and office, leading towards the innovative and sustainable approach for a better and safer future.",
         buttonTxt: "Get Started",
         buttonLink: "#l-i-r-t-h-p",
-        image: 'images/slide 4.jpg'
+        image: 'images/Slide 4.jpg'
     }
     // Add more slides as needed
 ];
