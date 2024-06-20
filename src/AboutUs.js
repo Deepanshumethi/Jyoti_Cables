@@ -1,5 +1,6 @@
 import React from 'react'
 import MainSliderCard from './MainSliderCard';
+import './AboutUs.css'
 function AboutUs() {
   
   return (

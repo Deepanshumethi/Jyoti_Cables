@@ -3,7 +3,7 @@ import BannerImage from './BannerImage'
 
 function Mission() {
   return (
-    <div className='page-width mission_page'>
+    <div className='page-width mission_page' style={{"paddingTop":"40px"}}>
         <BannerImage desktopImage="./images/mission-desktop.svg"  heading="MISSION & 
 VISION" color="#262626"/>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import './Left_content_right_image.css'
 function Left_content_right_image() {
     const navigate = useNavigate();
     const navigateTo = (path) => {

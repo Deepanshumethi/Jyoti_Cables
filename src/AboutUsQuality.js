@@ -1,5 +1,6 @@
 import React from 'react'
 import MainSliderCard from './MainSliderCard'
+import './AboutUs.css'
 function AboutUsQuality() {
   return (
     <div className='about-us-quality-main page-width' style={{"margin-top":"50px",
