@@ -40,8 +40,7 @@ export default LibraryCatalogues
 const catalogue = [
     {
         "name": "IS:694/2010",
-        
-        "image": "./images/STANLEY_694_Catalogue.pdf",
+        "image": "./images/STALEY_CatalogueXLPE.pdf",
        
     },
     {
@@ -51,7 +50,7 @@ const catalogue = [
     },
     {
         "name": "IS:1554-1/88",
-        "image": "./images/STANLE_Catalogue_746.pdf",
+         "image": "./images/STALEY_CatalogueXLPE.pdf",
         
     },
    
