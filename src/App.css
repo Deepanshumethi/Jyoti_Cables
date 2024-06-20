@@ -692,6 +692,7 @@ text-transform: uppercase;
 
 .certificates img {
   max-width: 350px;
+  width: 100%;
   border: 5px solid #D82927;
 }
 
@@ -707,7 +708,11 @@ linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0
   text-align: center;
   margin-top: 80px;
 }
-
+@media screen and (max-width:750px){
+  .certificates{
+    row-gap:30px;
+  }
+}
 /* catalouges */
 .catalouges-heading{
 width: 100%;

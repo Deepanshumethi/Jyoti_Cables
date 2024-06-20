@@ -20,7 +20,7 @@ function Home() {
         <LeftTextRightImage/>
         <HeadingWithPrdCard/>
        <Left_content_right_image/>
-       <LogoSlider/>
+       {/* <LogoSlider/> */}
       
       
     </div>

@@ -16,20 +16,25 @@
     padding-top: 30px !important;
     padding-bottom: 30px !important;
   }
-  
-  @media screen and (max-width:750px) {
-    .footer-main {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-  }
-  
   .footer-main img {
     width: 300px;
     margin-left: -20px;
     cursor: pointer;
   }
   
+  @media screen and (max-width:750px) {
+    .footer-main {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .footer-main img {
+      width: 200px;
+      
+    }
+    
+  }
+  
+ 
   .logo-with-text p {
     max-width: 380px;
     width:100%;

@@ -25,11 +25,11 @@ function LibraryCatalogues() {
                 ))}
             </div>
 
-            <a href="./images/prd2.png" download style={{ "text-decoration": "none" }}>
+            {/* <a href="./images/prd2.png" download style={{ "text-decoration": "none" }}>
                 <div className='certificate-dwnld-black-box'>
                     DOWNLOAD CATALOGUE
                 </div>
-            </a>
+            </a> */}
         </div>
     )
 }
@@ -40,17 +40,18 @@ export default LibraryCatalogues
 const catalogue = [
     {
         "name": "IS:694/2010",
-        "image": "./images/Certified by-01.webp",
+        
+        "image": "./images/STANLEY_694_Catalogue.pdf",
        
     },
     {
         "name": "IS:7098-1/88",
-        "image": "./images/Certified by-02.webp",
+        "image": "./images/STALEY_CatalogueXLPE.pdf",
         
     },
     {
         "name": "IS:1554-1/88",
-        "image": "./images/Certified by-03.webp",
+        "image": "./images/STANLE_Catalogue_746.pdf",
         
     },
    

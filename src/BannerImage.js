@@ -7,7 +7,7 @@ function BannerImage(props) {
       backgroundImage: `url(${props.desktopImage})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '450px', // Adjust height as needed
+      // height: '450px', // Adjust height as needed
       width: '100%',
       borderRadius:'30px'
     }} data-aos="fade-up">
