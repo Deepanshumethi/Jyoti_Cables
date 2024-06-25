@@ -43,7 +43,7 @@ const ContactForm = () => {
     setsendInfo({
       'subject': formData.subject,
       'message': messageHtml,
-      'from_email': 'team@prpwebs.com',
+      'from_email': 'jyoticables01@gmail.com',
       'recipient_list': ['deepanshu@prpwebs.in']
     });
   };
@@ -74,7 +74,7 @@ const ContactForm = () => {
 
     <div class="main-form" data-aos="fade-up">
 
-      <h2>Submit Yout Inquiry</h2>
+      <h2>Submit your Inquiry</h2>
     <form onSubmit={handleSubmit} className='page-width contact-form-form'>
   <div className='grid-fields'>
    <div className='form-field-box'>
