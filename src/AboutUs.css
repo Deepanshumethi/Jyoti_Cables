@@ -12,6 +12,10 @@
     }
     .left-text-right-image-content{
       padding-right:0;
+      /* padding-left: 20px; */
+    }
+    .about-us-main .left-text-right-image-content{
+      /* padding-right:0; */
       padding-left: 20px;
     }
   }
@@ -26,7 +30,9 @@
   }
   @media screen and (max-width:950px){
     .about-black-bg-text{
-      background:#000000;
+      background:url("/public/images/black.webp");
+      background-repeat: no-repeat;
+        background-position: center;
     }
   }
   

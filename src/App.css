@@ -28,7 +28,7 @@ button , a , li{
 
 /* main-slider css */
 .main-slider-box {
-  margin-top: 25px;
+  /* margin-top:120px; */
 }
 
 .slider-card {
@@ -40,6 +40,7 @@ button , a , li{
   background: #D82927;
   border-radius: 30px;
   justify-content: center;
+  margin-top: 120px !important;
 }
 
 .slider-content-box {
@@ -386,6 +387,7 @@ text-transform: uppercase;
   .card-container-left img {
     width: 300px;
     height: 270px;
+    margin: auto;
   }
   .card-container-left{
     width: 280px;
@@ -413,8 +415,8 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column-reverse;
     gap: 40px !important;
-    padding-left:0px !important
-    
+    padding-left:0px !important;
+    padding-top:20pxpx !important;
   }
 }
 .about-us-quality-ul{
@@ -785,7 +787,7 @@ font-weight: 600;
 }
 @media screen and (max-width:756px){
   .catalouges-heading h3{
-    font-size:32px;
+    font-size:28px;
   }
   .ctlg-card-wrapper h3{
     font-size:18px;
@@ -843,7 +845,10 @@ font-weight: 600;
 .slick-dots {
   bottom: 4% !important;
 }
-
+.slick-prev,
+.slick-next{
+  top:60% !important;
+}
 .slick-dots li button:before {
   font-size: 12px !important;
 }
@@ -977,7 +982,9 @@ textarea{
     grid-template-columns: 1fr;
   }
   .cont-us-details h2,.main-form h2{
-    font-size:32px ;
+    font-size:28px ;
+    padding-top:35px;
+    padding-bottom:10px;
   }
 }
 

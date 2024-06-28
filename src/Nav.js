@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './Nav.css';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 
@@ -17,7 +17,10 @@ function Nav() {
     const toggleDrawer = () => {
         setDrawerOpen(!drawerOpen);
     };
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location]);
+    
     const toggleDropdown = (dropdownName) => {
         setDropdownActive(prev => prev === dropdownName ? '' : dropdownName);
     };
