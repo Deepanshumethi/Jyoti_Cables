@@ -24,6 +24,9 @@
     .heading-subheading-image-desc{
     padding:30px 0px 15px 0px ;
     }
+      .heading-subheading-image-desc img{
+          border-radius:0px;
+      }
   }
   .heading-subheading-image-desc h3{
     font-size: 32px;
