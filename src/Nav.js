@@ -39,6 +39,7 @@ function Nav() {
 
     return (
         <nav className="Navbar-jc">
+        <div className='nav-wrapper'>  
             <div className="logo-box" onClick={() => navigateTo('/')}>
                 <img src="./images/footer-logo.png" alt="logo" />
             </div>
@@ -47,7 +48,9 @@ function Nav() {
             </div>
             <div className={`drawer ${drawerOpen ? 'open' : ''}`}>
                 <div className="hamburger-x" onClick={toggleDrawer}>
-                    <i className="fa fa-x"></i>
+                    {/* <i className="fa fa-x"></i> */}
+                    <img src="./images/wrong.png" />
+
                 </div>
                 <ul className="nav-link-ul-mobile">
                     <li><NavLink to="/" className={({ isActive }) => isActive ? 'nav-link-li active' : 'nav-link-li'} onClick={toggleDrawer}>Home</NavLink></li>
@@ -105,6 +108,7 @@ function Nav() {
                     </li>
                     <li><NavLink to="/contact-us" className={({ isActive }) => isActive ? 'nav-link-li active' : 'nav-link-li'}>Contact Us</NavLink></li>
                 </ul>
+            </div>
             </div>
         </nav>
     );

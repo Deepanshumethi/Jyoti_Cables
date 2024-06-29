@@ -3,7 +3,7 @@ import MainSliderCard from './MainSliderCard'
 
 function ProductLine() {
   return (
-    <div className='product-line-main page-width' style={{"margin-top":"50px",
+    <div className='product-line-main page-width' style={{
     "margin-bottom":"100px"}}>
 
 <MainSliderCard heading="PRODUCT LINE" subheading="Stanley FR-FRLS and PVC cables stand firm in providing the best solutions to their customers for the last 43 years for providing fireproof and PVC cables and wires to build a safer future for the people." buttonTxt="READ MORE" buttonLink="#p-l-b-l" image="./images/product_line.webp"/>

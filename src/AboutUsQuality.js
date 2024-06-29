@@ -3,7 +3,7 @@ import MainSliderCard from './MainSliderCard'
 import './AboutUs.css'
 function AboutUsQuality() {
   return (
-    <div className='about-us-quality-main page-width' style={{"margin-top":"50px",
+    <div className='about-us-quality-main page-width' style={{
     "margin-bottom":"100px"}}>
 <MainSliderCard heading="QUALITY" subheading="Stanley Cable is unwavering in its commitment to supplying superior quality PVC and FRS cables to our esteemed clientele. These cables are designed to surpass the most rigorous industry standards for safety, performance, and unwavering reliability." buttonTxt="READ MORE" buttonLink="#a-u-q-d" image="./images/hand-shake.jpeg"/>
 

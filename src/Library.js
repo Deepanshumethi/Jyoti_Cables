@@ -4,7 +4,7 @@ import BannerImage from './BannerImage'
 
 function Library() {
   return (
-    <div className='library-main page-width' style={{"margin-top":"50px",
+    <div className='library-main page-width' style={{
     "margin-bottom":"100px"}}>
     
 
@@ -17,11 +17,11 @@ function Library() {
             <img src="./images/certificate.jpeg" alt="certificates" data-aos="fade-up"/>
     </div>
 
-    <a href="./images/prd2.png" download style={{"text-decoration":"none"}}>
+    
   <div className='certificate-dwnld-black-box'>
     CE COMPLIANCE CERTIFICATION
   </div>
-</a>
+
 
     </div>
   )

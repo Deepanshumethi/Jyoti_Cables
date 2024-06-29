@@ -17,7 +17,14 @@
     .banner_image{height: 300px;}
   }
   
-  
+  .mission_images{
+    border-radius: 40px;
+    height: 500px;
+    margin: 20px 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .heading-subheading-image-desc{
     padding: 40px 0px;
   }
@@ -27,6 +34,9 @@
     }
       .heading-subheading-image-desc img{
           border-radius:0px;
+      }
+      .mission_images{
+        height: 200px;
       }
   }
   .heading-subheading-image-desc h3{
