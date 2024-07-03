@@ -192,6 +192,9 @@ text-transform: uppercase;
   background-color: white;
     outline: 1px solid #D82927;
 }
+.home-see-more-btn:hover a {
+  color: #D82927;
+}
 .home-see-more-btn a{
   color: #FFFFFF;
     text-decoration: none;
